@@ -1,0 +1,7 @@
+
+--alter table emp alter column esal varchar(22) -- column datatype change
+exec sp_rename 'emp.ename','empname' -- column name change
+exec sp_rename 'emp','empp'  -- table name change
+--sp_help emp -- table structure
+
+select * from empp
