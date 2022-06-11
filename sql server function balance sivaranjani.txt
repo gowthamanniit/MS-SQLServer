@@ -1,0 +1,40 @@
+Sql Mathematical Function/Numeric Functions:
+==========================================
+- abs            --> only display +ve numbers
+-avg              --> display percentage value
+-ceiling        -->  12.1 --> 13
+                         12.99 --> 13
+-count         --> total no. of elements
+-Floor    	   --> 12.99 --> 12
+	        12.01  -->12
+-max           --> returns the maximum value in a set of values
+-min            --> retruns the minimum value in a set of values
+- pi             --> retunrns the value of pi (3.14)
+- power      --> power(2,5) ->32 
+-rand         --> returns a random number
+-round       --> rounds a number to a specified no. of decimal places.
+-sign          --> returns the sign of a number
+-sqrt	 --> returns the square root of a number
+-square     --> returens square of a number
+-sum         --> calculates the sum of a set of values
+sql server date function:
+=======================
+current_timestamp 		--> returns the current date and time.
+dateadd			--> add date/time interval to a date and then 
+			returns the date
+datediff			--> returns the difference between two dates.
+day			-->returns day of the specified date
+getdate			--> system date and times
+isdate			--> checks the given date is valid or not.
+month			--> returns the month of the specified date
+year			--> returns the year of the specified date
+
+sql server advanced function:
+===========================
+cast 	-> convert a value into a specified datatype.
+current_user   -->returns the name of the current user in the sqlserver database.
+system_user    --> returns the login name of the current user
+
+
+
+ 		
